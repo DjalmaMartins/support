@@ -1,0 +1,169 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus {
+  outline: none;
+}
+.content {
+  margin-top: 30px;
+}
+.clearfix:after {
+  content: '.';
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* Abas */
+.tabs-content {
+  background: #eee;
+  font-family: sans-serif;
+  min-height: 400px;
+}
+
+/* Menu das abas */
+.tabs-menu {
+  background: #3367D6;
+  padding-top: 6px;
+  padding-left: 6px;
+}
+.tabs-menu ul {
+   list-style: none;
+}
+.tabs-menu ul li {
+  float: left;
+}
+.tabs-menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin: 0px;
+}
+.tabs-menu ul li a.active-tab-menu {
+  background: #eee;
+  color: #000;
+}
+
+/* Conteúdo das abas */
+.tabs {
+  display: none;
+  border: 1px solid #CCC;
+  padding: 30px;
+}
+.tab1 {
+  display: block;
+}
+
+.dm-opts label {
+  font-size: 12px;
+  font-weight: 700;
+  width: 20%;
+  display: block;
+  float: left;
+}
+.dm-input {
+  padding: 30px 10px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #fff;
+}
+.dm-opts small {
+  display: block;
+  float: right;
+  width: 20%;
+  color: #999;
+}
+.dm-opts input[type="text"], .dm-opts select {
+  width: 54%;
+  font-size: 12px;
+  padding: 4px;
+  color: #333;
+  line-height: 1em;
+  background: #f3f3f3;
+}
+.dm-input input:focus, .dm-input textarea:focus {
+  background: #fff;
+}
+.dm-input textarea {
+  width: 54%;
+  height: 175px;
+  font-size: 12px;
+  padding: 4px;
+  color: #333;
+  line-height: 1.5em;
+  background: #f3f3f3;
+}
+.dm-title h3 {
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+  color: #232323;
+  float: left;
+  width: 75%;
+  padding: 14px 4px;
+}
+.dm-title {
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  background: #eee;
+  padding: 0;
+}
+.dm-title h3 img.inactive {
+  margin: -8px 10px 0 2px;
+  width: 32px;
+  height: 32px;
+  background: url('icone.png') no-repeat 0 0;
+  float: left;
+  -moz-border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.dm-title h3 img.active {
+  margin: -8px 10px 0 2px;
+  width: 32px;
+  height: 32px;
+  background: url('icone.png') no-repeat 0 -32px;
+  float: left;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.dm-title h3:hover img {
+  border: 1px solid #999;
+}
+.dm-title span.submit {
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+  padding: 14px 0;
+}
+.clearfix {
+  clear: both;
+}
+.dm-table th, .dm-table td {
+  border: 1px solid #bbb;
+  padding: 10px;
+  text-align: center;
+}
+.dm-table th, .dm-table td.feature {
+  border-color: #888;
+}
+.inline {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
